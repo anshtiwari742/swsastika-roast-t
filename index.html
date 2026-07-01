@@ -1,0 +1,171 @@
+```html id="swastika-roast-site"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swastika Roast Zone</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#120000,#2b0000,#000);
+    color:white;
+    text-align:center;
+}
+
+h1{
+    font-size:3rem;
+    color:#ff4d4d;
+    margin-top:30px;
+    text-shadow:0 0 20px red;
+}
+
+.box{
+    width:85%;
+    margin:25px auto;
+    padding:25px;
+    background:rgba(255,255,255,0.08);
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(255,0,0,0.25);
+}
+
+.hero-img{
+    width:300px;
+    border-radius:20px;
+    margin:15px;
+    box-shadow:0 0 20px red;
+}
+
+button{
+    padding:15px 30px;
+    border:none;
+    border-radius:12px;
+    background:red;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    margin-top:20px;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.08);
+    background:darkred;
+}
+
+#roastText{
+    margin-top:20px;
+    font-size:22px;
+    color:#ffd4d4;
+}
+
+footer{
+    margin:40px;
+    color:pink;
+    font-size:22px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>⚠ SWASTIKA ROAST ZONE ⚠</h1>
+
+<div class="box">
+    <img src="pf.jpg" class="hero-img">
+    <h2>Swastika.exe</h2>
+    <p>Status: Dangerous but Cute</p>
+    <br>
+    <p><b>She posts cute pictures so people forget the chaos she causes.</b> 😭🔥</p>
+</div>
+
+<div class="box">
+    <h2>Warning</h2>
+    <p>You are entering the official roast site of Swastika.</p>
+    <p>Side effects: headache, confusion, random arguments.</p>
+</div>
+
+<div class="box">
+    <h2>System Analysis</h2>
+    <p>Anger Level: 87%</p>
+    <p>Drama Storage: 256 TB</p>
+    <p>Patience: Not Found</p>
+    <p>Cute Mode: Sometimes Active</p>
+    <p>Dangerous Mode: Always Running</p>
+</div>
+
+<div class="box">
+    <img src="mirror.jpg" class="hero-img">
+    <h2>Special Observation</h2>
+    <p>Attitude premium version, patience trial version.</p>
+</div>
+
+<div class="box">
+    <h2>Random Roast Generator</h2>
+    <button onclick="generateRoast()">Roast Me</button>
+    <p id="roastText">Click if you dare...</p>
+</div>
+
+<div class="box">
+    <img src="collage.jpg" class="hero-img">
+    <h2>Error Messages</h2>
+    <p>Error 404: Logic not found during argument</p>
+    <p>Warning: Mood changed without notice</p>
+    <p>Critical Alert: Sarcasm overload</p>
+</div>
+
+<div class="box">
+    <h2>Fake Reviews</h2>
+    ⭐⭐⭐⭐⭐ Scary but entertaining — Friends <br><br>
+    ⭐⭐⭐⭐⭐ Argued once, still recovering — Victim #27 <br><br>
+    ⭐⭐⭐⭐⭐ Would not recommend fighting — Society
+</div>
+
+<div class="box">
+    <img src="trip.jpg" class="hero-img">
+    <h2>Nuclear Truth</h2>
+    <p>She doesn’t start fights… she starts seasons.</p>
+    <p>CPU Usage: 2% listening, 98% judging.</p>
+</div>
+
+<button onclick="dangerMode()">DO NOT CLICK</button>
+
+<footer>
+Roast jitna bhi kar loon… tu phir bhi meri bestie hai ❤️
+</footer>
+
+<script>
+const roasts = [
+"Swastika ka mood weather app se bhi zyada unpredictable hai.",
+"Google ke paas sab answers hain, except Swastika ko kya chahiye.",
+"Agar overthinking Olympic sport hota, gold pakka.",
+"Reply fast ya missing person report file karo.",
+"'I'm fine' = You’re finished.",
+"Drama level: Netflix worthy.",
+"Argument mein jeetna? Good luck.",
+"2 minute = 30 minutes minimum.",
+"Cute bhi, scary bhi — dual mode active.",
+"She doesn't create drama. She IS drama.",
+"Roasting her is risky because comeback damage is critical."
+];
+
+function generateRoast(){
+    let random = Math.floor(Math.random()*roasts.length);
+    document.getElementById("roastText").innerText = roasts[random];
+}
+
+function dangerMode(){
+    alert("Congratulations 🎉 You unlocked Swastika Anger Mode. RUN.");
+}
+</script>
+
+</body>
+</html>
+```
